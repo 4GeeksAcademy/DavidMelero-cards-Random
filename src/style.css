@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(242, 239, 233);
+  padding: 1em;
+  width: 250px;
+  height: 300px;
+  border-radius: 1em;
+  display: inline-block;
+}
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+}
+
+.top {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 50px;
+}
+.middle {
+  position: absolute;
+  top: 42%;
+  left: 42%;
+  font-size: 50px;
+}
+.btn-stop {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-generate {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -12,18 +12,29 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body style="background-color: green;">
+    <div class="center-div">
+      <div id="card" class="center-div">
+        <span id="symbolTop" class="top">♠</span>
+        <span id="numberOne" class="middle">7</span>
+        <span id="symbolBottom" class="bottom">♠</span>
       </div>
     </div>
+    <button
+      onclick="stopRandomCard()"
+      class="btn-stop"
+      type="button"
+      class="btn btn-primary btn-lg"
+    >
+      <b>click me to stop</b>
+    </button>
+    <button
+      onclick="generatedRandomCard()"
+      class="btn-generate"
+      type="button"
+      class="btn btn-secondary btn-lg"
+    >
+      <b>click</b>
+    </button>
   </body>
 </html>
